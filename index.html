@@ -4,31 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem generator</title>
   </head>
   <body>
-    <header><h1>Welcome to the poem generator</h1></header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the poem generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input type="text" placeholder="Enter the topic of the poem" 
-        autofocus
-        required
-        autocomplete="off"/>
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here 
-      </br>
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Jen-94" target="_blank">Jennifer Soto</a>
-      and is hosted in
-      <a href="https://newaigenerator.netlify.app/" target="_blank">Netlify</a>.
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Jen-94" target="_blank">Jennifer Soto</a>
+        and is hosted in
+        <a href="https://newaigenerator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

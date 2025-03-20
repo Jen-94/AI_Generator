@@ -1,3 +1,70 @@
 body {
+  background: #efeff0;
+  font-family: "Playwrite NG Modern", cursive;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #95adb6;
   text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 120px auto;
+  /*background-color: #eafffd;*/
+  display: block;
+  max-width: 600px;
+}
+
+form {
+  padding: 30px;
+  background: #f6f0f0;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.09);
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid #95adb6;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #99918d;
+}
+
+.submit-button {
+  margin-left: 20px;
+  background: #8da1b9;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.poem {
+  font-size: 16px;
+  background: #f6f0f0;
+  padding: 20px;
+  line-height: 2;
+  font-weight: 400px;
+  border-left: 3px solid #c599b6;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.09);
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
 }
